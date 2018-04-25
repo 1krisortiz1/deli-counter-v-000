@@ -8,8 +8,8 @@ def line(katz_deli)
     katz_deli.length != 0
     katz_deli.each_with_index(0) do |value, index|
       katz_deli.push("#{index}. #{value}")
-      puts "The line is currently: #{katz_deli.join(" ")}  
-    
+      puts "The line is currently: #{katz_deli.join(" ")}"
+
     end
   end
 end
