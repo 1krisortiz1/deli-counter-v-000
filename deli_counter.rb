@@ -7,11 +7,11 @@ def line(katz_deli)
   else
     katz_deli.length != 0
     katz_deli.each_with_index do |value, index|
-      puts "The line is currently: #{index+1}. #{value}"
+      puts "The line is currently: #[{index+1}]. #{value}"
     end
-  puts katz_deli
   end
 end
+
 def take_a_number(other_deli, name)
   katz_deli << name
   puts "Welcome, #{name}. You are #{other_deli} in line."
