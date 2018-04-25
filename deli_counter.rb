@@ -7,9 +7,9 @@ def line(katz_deli)
   else
     katz_deli.length != 0
     katz_deli.each_with_index do |value, index|
-   puts  "The line is currently: #{index+1}. #{value}"
+   puts  "The line is currently: #{index[1]}. #{value}"
     end
-    index + 1
+  #  index + 1
   end
 end
 def take_a_number(other_deli, name)
